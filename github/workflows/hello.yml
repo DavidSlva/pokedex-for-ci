@@ -5,7 +5,7 @@ on:
   # Evento PUSH
   push:
     branches:
-      - main
+      - david
 # Definimos los trabajos del workflow
 jobs:
   hello_world:
