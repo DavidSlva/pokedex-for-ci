@@ -1,0 +1,16 @@
+# Es necesario tener un nombre
+name: Say Hello
+# Cuándo se debe ejecutar el archivp
+on:
+  # Evento PUSH
+  push:
+    branches:
+      - main
+# Definimos los trabajos del workflow
+jobs:
+  hello_world:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: |
+          echo "Hola david!"
