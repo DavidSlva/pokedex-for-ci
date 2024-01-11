@@ -26,7 +26,7 @@ module.exports = {
     'no-console': 'warn',
     'react/prop-types': 0,
     rules: {
-      'prettier/prettier': 'error',
+      'prettier/prettier': ['error'],
     },
   },
 };
